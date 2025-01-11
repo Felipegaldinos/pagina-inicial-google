@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FGS Pesquisas</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="shortcut icon" href="fgs-pesquisa/fgsimg-removebg-preview.png" type="image/x-icon">
+</head>
+<body>
+  <div class="container">
+    <!-- Logo do Google -->
+    <img src='fgs-pesquisa/fgsimg-removebg-preview.png' alt="fgs-pesquisas" class="logo">
+
+    <!-- Barra de busca -->
+    <form class="search-form" action="https://www.google.com/search" method="GET">
+      <div class="search-bar-container";>
+        <input
+          type="text"
+          name="q"
+          class="search-bar"
+          placeholder="Pesquisar"
+          required
+        />
+        <button type="submit" class="search-icon-button">
+          🔍
+        </button>
+      </div>
+    </form>
+
+    <!-- Links de navegação -->
+    <div class="nav-links">
+      <a href="https://mail.google.com" target="_blank">Gmail</a>
+      <a href="https://www.google.com.br" target="_blank">Google</a>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
